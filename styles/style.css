@@ -199,3 +199,35 @@ body{
 }
 
 
+@media screen and (max-width:1200px){
+
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .principal__imagem{
+        width: 50vw;
+    }
+
+    .principal__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+    
+    .rodape__lista{
+        display: block;
+    }
+}
